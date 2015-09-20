@@ -30,7 +30,7 @@ python dailypredict.py
 ####Requires:
 folium, os, webbrowser
 
-Reads the values from the *prediction.csv* results file produced by dailypredict.py and displays them on a map. The marker labls will show details of the flight. Creates *prediction.html* on the fly.
+Reads the values from the *prediction.csv* results file produced by dailypredict.py and displays them on a map. The marker labels will show details of the flight. Creates *prediction.html* on the fly.
 
 ####Usage:
 
