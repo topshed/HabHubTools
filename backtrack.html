@@ -50,7 +50,7 @@
 
 <body>
 
-   <div class="folium-map" id="folium_4a0e532c7b8d4f729e8bc94a6e6dcf5e" style="width: 100%; height: 100%"></div>
+   <div class="folium-map" id="folium_318a07f417dc4f98aeb8e1e43a80f366" style="width: 100%; height: 100%"></div>
 
    <script>
 
@@ -94,7 +94,7 @@
       /*
       Creates the map and adds the selected layers
       */
-      var map = L.map('folium_4a0e532c7b8d4f729e8bc94a6e6dcf5e', {
+      var map = L.map('folium_318a07f417dc4f98aeb8e1e43a80f366', {
                                        center:[52, -1.3],
                                        zoom: 8,
                                        maxBounds: bounds,
@@ -121,8 +121,8 @@
       map.addLayer(marker_1)
       
       var marker_2_icon = L.AwesomeMarkers.icon({ icon: 'info-sign',markerColor: 'red',prefix: 'glyphicon',extraClasses: 'fa-rotate-0'});
-      var marker_2 = L.marker([51.6987431984, 
-							-1.18568876488],
+      var marker_2 = L.marker([52.4067988192, 
+							-0.496460887806],
 							{'icon':marker_2_icon}
 							);
       marker_2.bindPopup("Launch from desired");
@@ -130,8 +130,8 @@
       map.addLayer(marker_2)
       
       var marker_3_icon = L.AwesomeMarkers.icon({ icon: 'info-sign',markerColor: 'purple',prefix: 'glyphicon',extraClasses: 'fa-rotate-0'});
-      var marker_3 = L.marker([53.1063793997, 
-							-1.83421561231],
+      var marker_3 = L.marker([52.3907001121, 
+							-2.51275618471],
 							{'icon':marker_3_icon}
 							);
       marker_3.bindPopup("guess");
@@ -139,8 +139,8 @@
       map.addLayer(marker_3)
       
       var marker_4_icon = L.AwesomeMarkers.icon({ icon: 'info-sign',markerColor: 'green',prefix: 'glyphicon',extraClasses: 'fa-rotate-0'});
-      var marker_4 = L.marker([52.3211085672, 
-							-1.56757659865],
+      var marker_4 = L.marker([52.5012331269, 
+							-1.50000136154],
 							{'icon':marker_4_icon}
 							);
       marker_4.bindPopup("lfg");
