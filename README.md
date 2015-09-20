@@ -30,7 +30,7 @@ python dailypredict.py
 ####Requires:
 folium, os, webbrowser
 
-Reads the values from the *prediction.csv* results file produced by dailypredict.py and displays them on a map. The marker labls will show details of the flight.
+Reads the values from the *prediction.csv* results file produced by dailypredict.py and displays them on a map. The marker labls will show details of the flight. Creates *prediction.html* on the fly.
 
 ####Usage:
 
@@ -43,7 +43,8 @@ python maploader.py
 ####Requires:
 json, urllib2, pprint, os, time, datetime, folium, LatLon
 
-Useful to work out a potential launch location based on a desired landing site. Plots the coordinates on a map and dsiplays in browser.
+Useful to work out a potential launch location based on a desired landing site. Plots the coordinates on a map and dsiplays in browser. Creates *backtrack.html* on the fly.
+
 ####Marker colours:
 Blue: Desired landing location
 
